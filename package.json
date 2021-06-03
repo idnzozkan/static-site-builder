@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "name": "static-site-builder",
+  "description": "Basic static site builder",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idnzozkan/static-site-builder.git"
+  },
+  "author": "Deniz Ozkan <ibrahimdenizozkan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idnzozkan/static-site-builder/issues"
+  },
+  "homepage": "https://github.com/idnzozkan/static-site-builder#readme"
+}
